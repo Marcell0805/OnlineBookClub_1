@@ -10,6 +10,7 @@ namespace BookClub.Core
     {
         
         [Required]
+        [Key]
         public int BookNumber { get; set; }
         [Required]
         public string BookName { get; set; }

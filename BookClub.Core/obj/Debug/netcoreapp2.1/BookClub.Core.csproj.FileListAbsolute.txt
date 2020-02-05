@@ -13,3 +13,4 @@ E:\OnlineBookClub\BookClub.Core\obj\Debug\netcoreapp2.1\BookClub.Core.AssemblyIn
 E:\OnlineBookClub\BookClub.Core\obj\Debug\netcoreapp2.1\BookClub.Core.AssemblyInfo.cs
 E:\OnlineBookClub\BookClub.Core\obj\Debug\netcoreapp2.1\BookClub.Core.dll
 E:\OnlineBookClub\BookClub.Core\obj\Debug\netcoreapp2.1\BookClub.Core.pdb
+E:\OnlineBookClub\BookClub.Core\obj\Debug\netcoreapp2.1\BookClub.Core.csprojAssemblyReference.cache
