@@ -36,7 +36,7 @@ namespace BookClub.App
             else
             {
                 UserId = HttpContext.Session.GetString("userId");
-                if (string.IsNullOrEmpty(UserId))
+                if (string.IsNullOrEmpty(UserId)||UserId=="0")
                     return RedirectToPage("/Index");
                 userDetails = userData.FetchById(int.Parse(UserId));
             }            
