@@ -31,8 +31,13 @@ namespace BookClub.WebApp
             {
                 options.UseSqlServer(Configuration.GetConnectionString("BookClubDb"));
             });
-            //services.AddSingleton<IUserinfo, InMemoryUserInfo>();
-            //services.AddSingleton<IBookInfo, InMemoryBookInfo>();
+            services.AddScoped<IUserinfo, InMemoryUserInfo>();
+            services.AddScoped<IBookInfo, SqlBookData>();
+            /*
+             * Testing in Memory DB
+            services.AddSingleton<IUserinfo, InMemoryUserInfo>();
+            services.AddSingleton<IBookInfo, InMemoryBookInfo>();
+            */
             services.AddMvc();
             services.Configure<CookiePolicyOptions>(options =>
             {
