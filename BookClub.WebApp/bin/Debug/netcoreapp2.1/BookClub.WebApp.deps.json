@@ -355,7 +355,8 @@
       },
       "BookClub.Data/1.0.0": {
         "dependencies": {
-          "BookClub.Core": "1.0.0"
+          "BookClub.Core": "1.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "2.1.1"
         },
         "runtime": {
           "BookClub.Data.dll": {}

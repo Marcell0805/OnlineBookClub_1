@@ -4630,7 +4630,10 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
         "dependencies": {
-          "BookClub.Core": "1.0.0"
+          "BookClub.Core": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "2.1.0",
+          "Microsoft.EntityFrameworkCore.Design": "2.1.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "2.1.0"
         },
         "compile": {
           "bin/placeholder/BookClub.Data.dll": {}
