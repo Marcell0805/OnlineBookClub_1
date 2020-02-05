@@ -6,3 +6,31 @@
 
 <h2>UserPage</h2>
 
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Welcome</title>
+</head>
+<body>
+
+    <h1>Welcome @Model.userDetails.UserName</h1>
+    <form asp-page-handler="OnGet" method="post">
+        <input type="hidden" asp-for="UserId" />
+        <div class="form-group">
+            <label asp-for="userDetails.UserName"></label>
+            <input asp-for="userDetails.UserName" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label asp-for="userDetails.UserSurname"></label>
+            <input asp-for="userDetails.UserSurname" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label asp-for="userDetails.UserEmail"></label>
+            <input asp-for="userDetails.UserEmail" class="form-control" />
+        </div>
+    </form>
+
+    <a asp-page="UserPage" asp-page-handler="Logout">Logout</a>
+
+</body>
+</html>

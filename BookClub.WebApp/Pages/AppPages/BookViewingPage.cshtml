@@ -4,5 +4,37 @@
     ViewData["Title"] = "BookViewingPage";
 }
 
-<h2>BookViewingPage</h2>
+<h2>Books</h2>
+<form method="get">
+    <div class="form-group ">
+        <div class="input-group">
+            <input type="search" class="form-control" asp-for="SearchTerm" />
+            <span class="input-group-btn">
+                <button class="btn btn-default">
+                    <i class="glyphicon glyphicon-search"></i>
+                </button>
 
+            </span>
+        </div>
+    </div>
+</form>
+<table class="table table" style="background-color:#cdf9ff;width:1200px">
+    <tr style="background-color:#b5b9ba">
+        <td style="font-size:large">Book Title</td>
+        <td style="font-size:large">Book Author</td>
+        <td style="font-size:large">Book Rating</td>
+    </tr>
+    @foreach (var books in Model.bookDetails)
+    {
+        <tr>
+            <td>@books.BookName</td>
+            <td>@books.Author</td>
+            <td>@books.BookRating</td>
+        </tr>
+    }
+</table>
+
+<a asp-page="./UserPage" class="btn btn-warning">Edit Your Details</a>
+
+
+<a asp-page="UserPage" asp-page-handler="Logout" class="btn btn-danger">Logout</a>

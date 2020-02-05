@@ -1,0 +1,8 @@
+F:\OnlineBookClub\BookClub.WebApp\obj\Debug\netcoreapp3.1\BookClub.WebApp.csprojAssemblyReference.cache
+F:\OnlineBookClub\BookClub.WebApp\obj\Debug\netcoreapp3.1\BookClub.WebApp.MvcApplicationPartsAssemblyInfo.cache
+F:\OnlineBookClub\BookClub.WebApp\obj\Debug\netcoreapp3.1\BookClub.WebApp.AssemblyInfoInputs.cache
+F:\OnlineBookClub\BookClub.WebApp\obj\Debug\netcoreapp3.1\BookClub.WebApp.AssemblyInfo.cs
+F:\OnlineBookClub\BookClub.WebApp\obj\Debug\netcoreapp3.1\BookClub.WebApp.TagHelpers.input.cache
+F:\OnlineBookClub\BookClub.WebApp\obj\Debug\netcoreapp3.1\BookClub.WebApp.TagHelpers.output.cache
+F:\OnlineBookClub\BookClub.WebApp\obj\Debug\netcoreapp3.1\BookClub.WebApp.dll
+F:\OnlineBookClub\BookClub.WebApp\obj\Debug\netcoreapp3.1\BookClub.WebApp.pdb

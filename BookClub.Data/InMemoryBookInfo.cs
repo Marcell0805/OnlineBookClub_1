@@ -5,14 +5,6 @@ using System.Linq;
 
 namespace BookClub.Data
 {
-    public interface IBookInfo
-    {
-        IEnumerable<BookDetails> FetchByBookId(int BookId);
-
-        IEnumerable<BookDetails> FetchByBookName(string BookName);
-
-        IEnumerable<BookDetails> GetAll();
-    }
     public class InMemoryBookInfo: IBookInfo
     {
         public List<BookDetails> BookList;
@@ -34,10 +26,12 @@ namespace BookClub.Data
                    select r;
         }
 
-        public IEnumerable<BookDetails> FetchByBookName(string BookName)
+        public IEnumerable<BookDetails> FetchByBookName(string BookName=null)
         {
+            if (!string.IsNullOrEmpty(BookName))
+                BookName=BookName.ToUpper();
             return from r in BookList
-                   where r.BookName==BookName
+                   where string.IsNullOrEmpty(BookName)|| r.BookName.ToUpper().Contains(BookName)
                    orderby r.BookNumber
                    select r;
         }

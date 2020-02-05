@@ -5,14 +5,6 @@ using System.Linq;
 
 namespace BookClub.Data
 {
-    public interface IUserinfo
-    {
-        IEnumerable<UserLogin> CheckLogin(string Username, string Password);
-
-        IEnumerable<UserLogin> FetchById(int UserId);
-
-        IEnumerable<UserLogin> GetAll();
-    }
     public class InMemoryUserInfo : IUserinfo
     {
         public List<UserLogin> UserList;
@@ -34,12 +26,9 @@ namespace BookClub.Data
                    select r;
         }
 
-        public IEnumerable<UserLogin> FetchById(int UserId)
+        public UserLogin FetchById(int UserId)
         {
-            return from r in UserList
-                   where r.UserId == UserId
-                   orderby r.UserId
-                   select r;
+            return UserList.SingleOrDefault(r => r.UserId == UserId);
         }
 
         public IEnumerable<UserLogin> GetAll()

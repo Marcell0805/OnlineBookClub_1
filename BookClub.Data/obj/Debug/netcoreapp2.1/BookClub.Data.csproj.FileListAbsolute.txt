@@ -1,0 +1,11 @@
+F:\OnlineBookClub\BookClub.Data\bin\Debug\netcoreapp2.1\BookClub.Data.deps.json
+F:\OnlineBookClub\BookClub.Data\bin\Debug\netcoreapp2.1\BookClub.Data.dll
+F:\OnlineBookClub\BookClub.Data\bin\Debug\netcoreapp2.1\BookClub.Data.pdb
+F:\OnlineBookClub\BookClub.Data\bin\Debug\netcoreapp2.1\BookClub.Core.dll
+F:\OnlineBookClub\BookClub.Data\bin\Debug\netcoreapp2.1\BookClub.Core.pdb
+F:\OnlineBookClub\BookClub.Data\obj\Debug\netcoreapp2.1\BookClub.Data.csprojAssemblyReference.cache
+F:\OnlineBookClub\BookClub.Data\obj\Debug\netcoreapp2.1\BookClub.Data.AssemblyInfoInputs.cache
+F:\OnlineBookClub\BookClub.Data\obj\Debug\netcoreapp2.1\BookClub.Data.AssemblyInfo.cs
+F:\OnlineBookClub\BookClub.Data\obj\Debug\netcoreapp2.1\BookClub.Data.csproj.CopyComplete
+F:\OnlineBookClub\BookClub.Data\obj\Debug\netcoreapp2.1\BookClub.Data.dll
+F:\OnlineBookClub\BookClub.Data\obj\Debug\netcoreapp2.1\BookClub.Data.pdb
