@@ -16,6 +16,8 @@ namespace BookClub.App
         private readonly IBookInfo bookInfo;
         [BindProperty(SupportsGet = true)]
         public string SearchTerm { get; set; }
+        [TempData]
+        public string Message { get; set; }
 
         public IEnumerable<BookDetails> bookDetails { get; set; }
         public BookViewingPageModel(IConfiguration config, IBookInfo bookInfo)

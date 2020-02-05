@@ -18,6 +18,11 @@ namespace BookClub.Data
             };
         }
 
+        public int Commit()
+        {
+            return 0;
+        }
+
         public IEnumerable<BookDetails> FetchByBookId(int BookId)
         {
             return from r in BookList
@@ -41,6 +46,25 @@ namespace BookClub.Data
             return from r in BookList
                    orderby r.BookNumber
                    select r;
+        }
+
+        public BookDetails Insert(BookDetails bookDetails)
+        {
+            BookList.Add(bookDetails);
+            bookDetails.BookNumber = BookList.Max(r=>r.BookNumber)+1;
+            return bookDetails;
+        }
+
+        public BookDetails Update(BookDetails bookDetails)
+        {
+            var bookList = BookList.SingleOrDefault(r => r.BookNumber == bookDetails.BookNumber);
+            if (bookDetails != null)
+            {
+                bookList.BookName = bookDetails.BookName;
+                bookList.BookRating = bookDetails.BookRating;
+                bookList.Author = bookDetails.Author;
+            }
+            return bookList;
         }
     }
 }

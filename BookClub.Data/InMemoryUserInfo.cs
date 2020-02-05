@@ -41,18 +41,26 @@ namespace BookClub.Data
         public UserLogin Update(UserLogin updatedDetails)
         {
             var userDetails = UserList.SingleOrDefault(r => r.UserId == updatedDetails.UserId);
-            if(updatedDetails!=null)
+            if (updatedDetails != null)
             {
-                updatedDetails.UserName = updatedDetails.UserName;
-                updatedDetails.UserSurname = updatedDetails.UserSurname;
-                updatedDetails.UserEmail = updatedDetails.UserEmail;
+                userDetails.UserName = updatedDetails.UserName;
+                userDetails.UserSurname = updatedDetails.UserSurname;
+                userDetails.UserEmail = updatedDetails.UserEmail;
+                userDetails.Password = updatedDetails.Password;
             }
             return updatedDetails;
         }
 
         public int Commit()
         {
-            throw new NotImplementedException();
+            return 0;
+        }
+
+        public UserLogin Insert(UserLogin updatedDetails)
+        {
+            UserList.Add(updatedDetails);
+            updatedDetails.UserId = UserList.Max(r => r.UserId) + 1;
+            return updatedDetails;
         }
     }
 }

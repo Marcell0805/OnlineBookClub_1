@@ -4,5 +4,25 @@
     ViewData["Title"] = "BookPostingPage";
 }
 
-<h2>BookPostingPage</h2>
+<h2>New Book</h2>
+<form method="post">
+
+    <input type="hidden" asp-for="BookDetails.BookNumber" />
+    <div class="form-group">
+        <label asp-for="BookDetails.BookName"></label>
+        <input asp-for="BookDetails.BookName" class="form-control" />
+        <span class="text-danger" asp-validation-for="BookDetails.BookName"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="BookDetails.Author"></label>
+        <input asp-for="BookDetails.Author" class="form-control" />
+        <span class="text-danger" asp-validation-for="BookDetails.Author"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="BookDetails.BookRating"></label>
+        <input asp-for="BookDetails.BookRating" class="form-control" />
+        <span class="text-danger" asp-validation-for="BookDetails.BookRating"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Save</button>
+</form>
 

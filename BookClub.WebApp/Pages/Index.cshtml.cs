@@ -45,17 +45,16 @@ namespace BookClub.WebApp
                 HttpContext.Session.SetString("userId", userId.ToString());
                 return RedirectToPage("/AppPages/BookViewingPage");
             }
-
-            //if (Username.Equals("abc") && Password.Equals("123"))
-            //{
-            //    HttpContext.Session.SetString("username", Username,"",);
-            //    return RedirectToPage("/AppPages/BookViewingPage");
-            //}
             else
             {
                 Msg = "Invalid credentials";
                 return Page();
             }
+        }
+        public IActionResult OnGetRegister()
+        {
+            HttpContext.Session.SetString("userRegister", "True");
+            return RedirectToPage("/AppPages/UserPage");
         }
     }
 }

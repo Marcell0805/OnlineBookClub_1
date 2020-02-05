@@ -15,6 +15,7 @@ namespace BookClub.App
     {
         public string UserId { get; set; }
         public bool logOut { get; set; }
+        [BindProperty]
         public UserLogin userDetails { get; set; }
         public IEnumerable<UserLogin> UserLoginDetails { get; set; }
 
@@ -28,20 +29,39 @@ namespace BookClub.App
         }
         public IActionResult OnGet(bool LogOut)
         {
-            //if (logOut)
-            //{
-            //    OnGetLogout();
-            //    return RedirectToPage("/Index");
-            //}
-            UserId = HttpContext.Session.GetString("userId");
-            if (string.IsNullOrEmpty(UserId))
-                return RedirectToPage("/Index");
-            userDetails = userData.FetchById(int.Parse(UserId));
+            if(!string.IsNullOrEmpty(HttpContext.Session.GetString("userRegister")))
+            {
+                userDetails = new UserLogin();
+            }
+            else
+            {
+                UserId = HttpContext.Session.GetString("userId");
+                if (string.IsNullOrEmpty(UserId))
+                    return RedirectToPage("/Index");
+                userDetails = userData.FetchById(int.Parse(UserId));
+            }            
             return Page();
         }
-        public void OnPost()
+        public IActionResult OnPost()
         {
-            HttpContext.Session.Remove("userId");
+            if (!ModelState.IsValid)
+            {
+                return Page();
+            }
+            if (userDetails.UserId > 0)
+            {
+                userData.Update(userDetails);
+            }
+            else
+            {
+                userData.Insert(userDetails);
+                HttpContext.Session.SetString("userId", userDetails.UserId.ToString());
+                HttpContext.Session.Remove("userRegister");
+            }
+            TempData["Message"] = "Your details were updated";
+            userData.Commit();
+            return RedirectToPage("./BookViewingPage");
+
         }
         public IActionResult OnGetLogout()
         {

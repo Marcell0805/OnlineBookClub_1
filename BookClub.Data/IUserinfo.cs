@@ -10,6 +10,7 @@ namespace BookClub.Data
         UserLogin FetchById(int UserId);
 
         UserLogin Update(UserLogin updatedDetails);
+        UserLogin Insert(UserLogin updatedDetails);
         int Commit();
 
         IEnumerable<UserLogin> GetAll();

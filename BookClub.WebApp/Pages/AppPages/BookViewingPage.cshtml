@@ -5,6 +5,12 @@
 }
 
 <h2>Books</h2>
+@if (Model.Message != null)
+{
+    <div class="alert alert-info">
+        @Model.Message
+    </div>
+}
 <form method="get">
     <div class="form-group ">
         <div class="input-group">
@@ -29,7 +35,7 @@
         <tr>
             <td>@books.BookName</td>
             <td>@books.Author</td>
-            <td>@books.BookRating</td>
+            <td>@books.BookRating /5</td>
         </tr>
     }
 </table>

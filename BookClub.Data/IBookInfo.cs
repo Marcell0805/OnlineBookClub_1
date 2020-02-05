@@ -9,7 +9,9 @@ namespace BookClub.Data
         IEnumerable<BookDetails> FetchByBookId(int BookId);
 
         IEnumerable<BookDetails> FetchByBookName(string BookName);
-
+        BookDetails Update(BookDetails bookDetails);
+        BookDetails Insert(BookDetails bookDetails);
+        int Commit();
         IEnumerable<BookDetails> GetAll();
     }
 }
