@@ -37,5 +37,22 @@ namespace BookClub.Data
                    orderby r.UserId
                    select r;
         }
+
+        public UserLogin Update(UserLogin updatedDetails)
+        {
+            var userDetails = UserList.SingleOrDefault(r => r.UserId == updatedDetails.UserId);
+            if(updatedDetails!=null)
+            {
+                updatedDetails.UserName = updatedDetails.UserName;
+                updatedDetails.UserSurname = updatedDetails.UserSurname;
+                updatedDetails.UserEmail = updatedDetails.UserEmail;
+            }
+            return updatedDetails;
+        }
+
+        public int Commit()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

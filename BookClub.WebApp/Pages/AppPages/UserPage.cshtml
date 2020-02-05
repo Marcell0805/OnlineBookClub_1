@@ -28,9 +28,10 @@
             <label asp-for="userDetails.UserEmail"></label>
             <input asp-for="userDetails.UserEmail" class="form-control" />
         </div>
+        <button type="submit" class="btn btn-primary">Update</button>
     </form>
-
-    <a asp-page="UserPage" asp-page-handler="Logout">Logout</a>
+    <a class="btn btn-primary" style="margin:10px 10px 0px 0px "asp-page="UserPage" asp-page-handler="Logout">Logout</a>
+    
 
 </body>
 </html>

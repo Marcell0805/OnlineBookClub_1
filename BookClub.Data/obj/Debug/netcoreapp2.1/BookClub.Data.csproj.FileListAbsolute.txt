@@ -9,3 +9,15 @@ F:\OnlineBookClub\BookClub.Data\obj\Debug\netcoreapp2.1\BookClub.Data.AssemblyIn
 F:\OnlineBookClub\BookClub.Data\obj\Debug\netcoreapp2.1\BookClub.Data.csproj.CopyComplete
 F:\OnlineBookClub\BookClub.Data\obj\Debug\netcoreapp2.1\BookClub.Data.dll
 F:\OnlineBookClub\BookClub.Data\obj\Debug\netcoreapp2.1\BookClub.Data.pdb
+E:\OnlineBookClub\BookClub.Data\bin\Debug\netcoreapp2.1\BookClub.Data.deps.json
+E:\OnlineBookClub\BookClub.Data\bin\Debug\netcoreapp2.1\BookClub.Data.dll
+E:\OnlineBookClub\BookClub.Data\bin\Debug\netcoreapp2.1\BookClub.Data.pdb
+E:\OnlineBookClub\BookClub.Data\bin\Debug\netcoreapp2.1\BookClub.Core.dll
+E:\OnlineBookClub\BookClub.Data\bin\Debug\netcoreapp2.1\BookClub.Core.pdb
+E:\OnlineBookClub\BookClub.Data\obj\Debug\netcoreapp2.1\BookClub.Data.csprojAssemblyReference.cache
+E:\OnlineBookClub\BookClub.Data\obj\Debug\netcoreapp2.1\BookClub.Data.csproj.CoreCompileInputs.cache
+E:\OnlineBookClub\BookClub.Data\obj\Debug\netcoreapp2.1\BookClub.Data.AssemblyInfoInputs.cache
+E:\OnlineBookClub\BookClub.Data\obj\Debug\netcoreapp2.1\BookClub.Data.AssemblyInfo.cs
+E:\OnlineBookClub\BookClub.Data\obj\Debug\netcoreapp2.1\BookClub.Data.csproj.CopyComplete
+E:\OnlineBookClub\BookClub.Data\obj\Debug\netcoreapp2.1\BookClub.Data.dll
+E:\OnlineBookClub\BookClub.Data\obj\Debug\netcoreapp2.1\BookClub.Data.pdb
