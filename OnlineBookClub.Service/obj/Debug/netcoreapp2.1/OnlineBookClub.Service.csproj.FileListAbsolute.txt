@@ -17,7 +17,6 @@ F:\OnlineBookClub\OnlineBookClub.Service\bin\Debug\netcoreapp2.1\OnlineBookClub.
 F:\OnlineBookClub\OnlineBookClub.Service\bin\Debug\netcoreapp2.1\OnlineBookClub.Service.runtimeconfig.dev.json
 F:\OnlineBookClub\OnlineBookClub.Service\bin\Debug\netcoreapp2.1\OnlineBookClub.Service.dll
 F:\OnlineBookClub\OnlineBookClub.Service\bin\Debug\netcoreapp2.1\OnlineBookClub.Service.pdb
-F:\OnlineBookClub\OnlineBookClub.Service\obj\Debug\netcoreapp2.1\OnlineBookClub.Service.csproj.CoreCompileInputs.cache
 F:\OnlineBookClub\OnlineBookClub.Service\obj\Debug\netcoreapp2.1\OnlineBookClub.Service.RazorAssemblyInfo.cache
 F:\OnlineBookClub\OnlineBookClub.Service\obj\Debug\netcoreapp2.1\OnlineBookClub.Service.RazorAssemblyInfo.cs
 F:\OnlineBookClub\OnlineBookClub.Service\obj\Debug\netcoreapp2.1\OnlineBookClub.Service.AssemblyInfoInputs.cache
@@ -25,3 +24,7 @@ F:\OnlineBookClub\OnlineBookClub.Service\obj\Debug\netcoreapp2.1\OnlineBookClub.
 F:\OnlineBookClub\OnlineBookClub.Service\obj\Debug\netcoreapp2.1\OnlineBookClub.Service.RazorTargetAssemblyInfo.cache
 F:\OnlineBookClub\OnlineBookClub.Service\obj\Debug\netcoreapp2.1\OnlineBookClub.Service.dll
 F:\OnlineBookClub\OnlineBookClub.Service\obj\Debug\netcoreapp2.1\OnlineBookClub.Service.pdb
+F:\OnlineBookClub\OnlineBookClub.Service\obj\Debug\netcoreapp2.1\OnlineBookClub.Service.csprojAssemblyReference.cache
+F:\OnlineBookClub\OnlineBookClub.Service\bin\Debug\netcoreapp2.1\appsettings.Development.json
+F:\OnlineBookClub\OnlineBookClub.Service\bin\Debug\netcoreapp2.1\appsettings.json
+F:\OnlineBookClub\OnlineBookClub.Service\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
