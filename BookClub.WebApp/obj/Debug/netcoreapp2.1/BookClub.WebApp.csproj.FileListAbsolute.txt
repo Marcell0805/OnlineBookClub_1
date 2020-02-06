@@ -40,6 +40,9 @@ E:\OnlineBookClub\BookClub.WebApp\obj\Debug\netcoreapp2.1\BookClub.WebApp.Views.
 E:\OnlineBookClub\BookClub.WebApp\obj\Debug\netcoreapp2.1\BookClub.WebApp.csproj.CopyComplete
 E:\OnlineBookClub\BookClub.WebApp\obj\Debug\netcoreapp2.1\BookClub.WebApp.dll
 E:\OnlineBookClub\BookClub.WebApp\obj\Debug\netcoreapp2.1\BookClub.WebApp.pdb
+F:\OnlineBookClub\BookClub.WebApp\bin\Debug\netcoreapp2.1\appsettings.Development.json
+F:\OnlineBookClub\BookClub.WebApp\bin\Debug\netcoreapp2.1\appsettings.json
+F:\OnlineBookClub\BookClub.WebApp\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
 F:\OnlineBookClub\BookClub.WebApp\bin\Debug\netcoreapp2.1\BookClub.WebApp.deps.json
 F:\OnlineBookClub\BookClub.WebApp\bin\Debug\netcoreapp2.1\BookClub.WebApp.runtimeconfig.json
 F:\OnlineBookClub\BookClub.WebApp\bin\Debug\netcoreapp2.1\BookClub.WebApp.runtimeconfig.dev.json
@@ -59,15 +62,6 @@ F:\OnlineBookClub\BookClub.WebApp\obj\Debug\netcoreapp2.1\BookClub.WebApp.Assemb
 F:\OnlineBookClub\BookClub.WebApp\obj\Debug\netcoreapp2.1\BookClub.WebApp.TagHelpers.input.cache
 F:\OnlineBookClub\BookClub.WebApp\obj\Debug\netcoreapp2.1\BookClub.WebApp.TagHelpers.output.cache
 F:\OnlineBookClub\BookClub.WebApp\obj\Debug\netcoreapp2.1\BookClub.WebApp.RazorCoreGenerate.cache
-F:\OnlineBookClub\BookClub.WebApp\obj\Debug\netcoreapp2.1\BookClub.WebApp.RazorTargetAssemblyInfo.cache
-F:\OnlineBookClub\BookClub.WebApp\obj\Debug\netcoreapp2.1\BookClub.WebApp.RazorTargetAssemblyInfo.cs
-F:\OnlineBookClub\BookClub.WebApp\obj\Debug\netcoreapp2.1\BookClub.WebApp.Views.pdb
-F:\OnlineBookClub\BookClub.WebApp\obj\Debug\netcoreapp2.1\BookClub.WebApp.csproj.CopyComplete
-F:\OnlineBookClub\BookClub.WebApp\obj\Debug\netcoreapp2.1\BookClub.WebApp.dll
-F:\OnlineBookClub\BookClub.WebApp\obj\Debug\netcoreapp2.1\BookClub.WebApp.pdb
-F:\OnlineBookClub\BookClub.WebApp\bin\Debug\netcoreapp2.1\appsettings.Development.json
-F:\OnlineBookClub\BookClub.WebApp\bin\Debug\netcoreapp2.1\appsettings.json
-F:\OnlineBookClub\BookClub.WebApp\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
 F:\OnlineBookClub\BookClub.WebApp\obj\Debug\netcoreapp2.1\Razor\Pages\About.cshtml.g.cs
 F:\OnlineBookClub\BookClub.WebApp\obj\Debug\netcoreapp2.1\Razor\Pages\AppPages\BookPostingPage.cshtml.g.cs
 F:\OnlineBookClub\BookClub.WebApp\obj\Debug\netcoreapp2.1\Razor\Pages\AppPages\BooksPage.cshtml.g.cs
@@ -84,3 +78,9 @@ F:\OnlineBookClub\BookClub.WebApp\obj\Debug\netcoreapp2.1\Razor\Pages\Shared\_La
 F:\OnlineBookClub\BookClub.WebApp\obj\Debug\netcoreapp2.1\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
 F:\OnlineBookClub\BookClub.WebApp\obj\Debug\netcoreapp2.1\Razor\Pages\_ViewImports.cshtml.g.cs
 F:\OnlineBookClub\BookClub.WebApp\obj\Debug\netcoreapp2.1\Razor\Pages\_ViewStart.cshtml.g.cs
+F:\OnlineBookClub\BookClub.WebApp\obj\Debug\netcoreapp2.1\BookClub.WebApp.RazorTargetAssemblyInfo.cache
+F:\OnlineBookClub\BookClub.WebApp\obj\Debug\netcoreapp2.1\BookClub.WebApp.RazorTargetAssemblyInfo.cs
+F:\OnlineBookClub\BookClub.WebApp\obj\Debug\netcoreapp2.1\BookClub.WebApp.Views.pdb
+F:\OnlineBookClub\BookClub.WebApp\obj\Debug\netcoreapp2.1\BookClub.WebApp.csproj.CopyComplete
+F:\OnlineBookClub\BookClub.WebApp\obj\Debug\netcoreapp2.1\BookClub.WebApp.dll
+F:\OnlineBookClub\BookClub.WebApp\obj\Debug\netcoreapp2.1\BookClub.WebApp.pdb

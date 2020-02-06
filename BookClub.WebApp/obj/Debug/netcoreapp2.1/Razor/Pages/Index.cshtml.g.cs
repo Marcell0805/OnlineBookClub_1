@@ -65,7 +65,7 @@ using BookClub.WebApp;
             WriteLiteral("\r\n    <html>\r\n    ");
             EndContext();
             BeginContext(101, 112, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b8850337065e42a692e62b32e18ba210", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d7a3d5046c0b4ac5bebadc4265e1e7b9", async() => {
                 BeginContext(107, 99, true);
                 WriteLiteral("\r\n        <meta name=\"viewport\" content=\"width=device-width\" />\r\n        <title>Index</title>\r\n    ");
                 EndContext();
@@ -85,7 +85,7 @@ using BookClub.WebApp;
             WriteLiteral("\r\n    ");
             EndContext();
             BeginContext(219, 729, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "16959c4f36964f848e2a5fd3f6c5b095", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1dce1e2978da4aadbe77bd7a8be677ba", async() => {
                 BeginContext(225, 41, true);
                 WriteLiteral("\r\n\r\n        <h3>Login Form</h3>\r\n        ");
                 EndContext();
@@ -100,12 +100,12 @@ using BookClub.WebApp;
                 WriteLiteral("\r\n    ");
                 EndContext();
                 BeginContext(282, 653, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "31c944e8a0c848668633cd05d64886e1", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "01bca7319656427995c3bb0b9e459ba6", async() => {
                     BeginContext(319, 92, true);
                     WriteLiteral("\r\n        <table>\r\n            <tr>\r\n                <td>Username</td>\r\n                <td>");
                     EndContext();
                     BeginContext(411, 47, false);
-                    __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "9d5849b3962043b6b20864d8d584ede1", async() => {
+                    __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "3def1182cbff45dda11f7dcbba5a4878", async() => {
                     }
                     );
                     __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper>();
@@ -130,7 +130,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For = ModelExpressionProvid
                     WriteLiteral("</td>\r\n            </tr>\r\n            <tr>\r\n                <td>Password</td>\r\n                <td>");
                     EndContext();
                     BeginContext(557, 51, false);
-                    __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "841dec803af14c4392104d86a0a0bd15", async() => {
+                    __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "85b6aba2d37b4573825c12c2a154d25a", async() => {
                     }
                     );
                     __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper>();
@@ -155,7 +155,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For = ModelExpressionProvid
                     WriteLiteral("</td>\r\n            </tr>\r\n            <tr>\r\n                <td>&nbsp;</td>\r\n                <td><input class=\"btn btn-default\"  type=\"submit\" value=\"Login\" />\r\n                ");
                     EndContext();
                     BeginContext(785, 85, false);
-                    __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "cf42190ae79f490eb685d4c1e0cf4ffb", async() => {
+                    __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2d50dcdef6854b499d5cd3ba1a5d60a1", async() => {
                         BeginContext(858, 8, true);
                         WriteLiteral("Register");
                         EndContext();
