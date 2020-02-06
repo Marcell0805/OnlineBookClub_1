@@ -7,10 +7,3 @@ E:\OnlineBookClub\BookClub.Core\obj\Debug\netcoreapp2.1\BookClub.Core.AssemblyIn
 E:\OnlineBookClub\BookClub.Core\obj\Debug\netcoreapp2.1\BookClub.Core.dll
 E:\OnlineBookClub\BookClub.Core\obj\Debug\netcoreapp2.1\BookClub.Core.pdb
 E:\OnlineBookClub\BookClub.Core\obj\Debug\netcoreapp2.1\BookClub.Core.csprojAssemblyReference.cache
-F:\OnlineBookClub\BookClub.Core\bin\Debug\netcoreapp2.1\BookClub.Core.deps.json
-F:\OnlineBookClub\BookClub.Core\bin\Debug\netcoreapp2.1\BookClub.Core.dll
-F:\OnlineBookClub\BookClub.Core\bin\Debug\netcoreapp2.1\BookClub.Core.pdb
-F:\OnlineBookClub\BookClub.Core\obj\Debug\netcoreapp2.1\BookClub.Core.AssemblyInfoInputs.cache
-F:\OnlineBookClub\BookClub.Core\obj\Debug\netcoreapp2.1\BookClub.Core.AssemblyInfo.cs
-F:\OnlineBookClub\BookClub.Core\obj\Debug\netcoreapp2.1\BookClub.Core.dll
-F:\OnlineBookClub\BookClub.Core\obj\Debug\netcoreapp2.1\BookClub.Core.pdb
