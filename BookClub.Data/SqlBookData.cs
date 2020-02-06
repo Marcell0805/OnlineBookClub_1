@@ -20,7 +20,11 @@ namespace BookClub.Data
 
         public IEnumerable<BookDetails> FetchByBookId(int BookId)
         {
-            return null;
+            var query = from r in db.Books
+                        where r.BookNumber==BookId
+                orderby r.BookName
+                select r;
+            return query;
         }
 
         public IEnumerable<BookDetails> FetchByBookName(string BookName)

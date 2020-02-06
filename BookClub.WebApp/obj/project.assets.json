@@ -12589,43 +12589,43 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Marcell_Laptop\\.nuget\\packages\\": {},
-    "C:\\ProgramData\\Xamarin\\NuGet\\": {},
+    "C:\\Users\\msvn\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\OnlineBookClub\\BookClub.WebApp\\BookClub.WebApp.csproj",
+      "projectUniqueName": "F:\\OnlineBookClub\\BookClub.WebApp\\BookClub.WebApp.csproj",
       "projectName": "BookClub.WebApp",
-      "projectPath": "E:\\OnlineBookClub\\BookClub.WebApp\\BookClub.WebApp.csproj",
-      "packagesPath": "C:\\Users\\Marcell_Laptop\\.nuget\\packages\\",
-      "outputPath": "E:\\OnlineBookClub\\BookClub.WebApp\\obj\\",
+      "projectPath": "F:\\OnlineBookClub\\BookClub.WebApp\\BookClub.WebApp.csproj",
+      "packagesPath": "C:\\Users\\msvn\\.nuget\\packages\\",
+      "outputPath": "F:\\OnlineBookClub\\BookClub.WebApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\ProgramData\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Marcell_Laptop\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\msvn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 18.1.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.1.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.1"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://nuget.devexpress.com/meF6pdn3OmHcONfURardiYSA6AoYSl1KTiXMcxxACLJuplLVAB/api": {}
       },
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "E:\\OnlineBookClub\\BookClub.Core\\BookClub.Core.csproj": {
-              "projectPath": "E:\\OnlineBookClub\\BookClub.Core\\BookClub.Core.csproj"
+            "F:\\OnlineBookClub\\BookClub.Core\\BookClub.Core.csproj": {
+              "projectPath": "F:\\OnlineBookClub\\BookClub.Core\\BookClub.Core.csproj"
             },
-            "E:\\OnlineBookClub\\BookClub.Data\\BookClub.Data.csproj": {
-              "projectPath": "E:\\OnlineBookClub\\BookClub.Data\\BookClub.Data.csproj"
+            "F:\\OnlineBookClub\\BookClub.Data\\BookClub.Data.csproj": {
+              "projectPath": "F:\\OnlineBookClub\\BookClub.Data\\BookClub.Data.csproj"
             }
           }
         }
@@ -12651,7 +12651,6 @@
             "version": "[2.1.2, )"
           },
           "Microsoft.NETCore.App": {
-            "suppressParent": "All",
             "target": "Package",
             "version": "[2.1.0, )",
             "autoReferenced": true

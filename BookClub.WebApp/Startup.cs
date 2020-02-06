@@ -31,7 +31,7 @@ namespace BookClub.WebApp
             {
                 options.UseSqlServer(Configuration.GetConnectionString("BookClubDb"));
             });
-            services.AddScoped<IUserinfo, InMemoryUserInfo>();
+            services.AddScoped<IUserinfo, SqlUsersData>();
             services.AddScoped<IBookInfo, SqlBookData>();
             /*
              * Testing in Memory DB
