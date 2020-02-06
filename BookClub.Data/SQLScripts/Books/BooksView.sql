@@ -26,7 +26,7 @@ as
 		,a.Author as Author
 		,a.BookRating as BookRating
 	from		
-		ModelEntity1 a
+		Books a
 Go
 If Exists (select * from syscomments where id = object_id('vwBooks'))
 Begin
