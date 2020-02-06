@@ -44,6 +44,7 @@ namespace BookClub.WebApp
                 }
                 HttpContext.Session.SetString("userId", userId.ToString());
                 return RedirectToPage("/AppPages/BookViewingPage");
+
             }
             else
             {

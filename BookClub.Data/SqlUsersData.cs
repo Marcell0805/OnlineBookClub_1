@@ -20,6 +20,10 @@ namespace BookClub.Data
                 where r.UserName == Username && r.Password == Password
                         orderby r.UserName
                 select r;
+            if(query.ToList().Count()==0)
+            {
+                query = null;
+            }
             return query;
         }
 

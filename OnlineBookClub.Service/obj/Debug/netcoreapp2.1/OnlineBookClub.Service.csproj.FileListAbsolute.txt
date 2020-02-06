@@ -28,3 +28,8 @@ F:\OnlineBookClub\OnlineBookClub.Service\obj\Debug\netcoreapp2.1\OnlineBookClub.
 F:\OnlineBookClub\OnlineBookClub.Service\bin\Debug\netcoreapp2.1\appsettings.Development.json
 F:\OnlineBookClub\OnlineBookClub.Service\bin\Debug\netcoreapp2.1\appsettings.json
 F:\OnlineBookClub\OnlineBookClub.Service\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+F:\OnlineBookClub\OnlineBookClub.Service\bin\Debug\netcoreapp2.1\BookClub.Core.dll
+F:\OnlineBookClub\OnlineBookClub.Service\bin\Debug\netcoreapp2.1\BookClub.Data.dll
+F:\OnlineBookClub\OnlineBookClub.Service\bin\Debug\netcoreapp2.1\BookClub.Data.pdb
+F:\OnlineBookClub\OnlineBookClub.Service\bin\Debug\netcoreapp2.1\BookClub.Core.pdb
+F:\OnlineBookClub\OnlineBookClub.Service\obj\Debug\netcoreapp2.1\OnlineBookClub.Service.csproj.CopyComplete
